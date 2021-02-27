@@ -1,0 +1,51 @@
+
+body {
+    background-color: black;
+    height: 95vh;
+    background-size: cover;
+    background-position: center;
+}
+.nav {
+    position: relative;
+
+}
+p {
+    color: aliceblue;
+    font-size: 30px;
+}
+#dp1 {
+top: 180px;
+}
+#dp2 {
+    margin:100px 0x 0px  0px ;
+}
+#dp3 {
+    margin: 100px 0x 0px  0px;
+    z-index: -1;
+}
+ul {
+    list-style-type: none;
+position: relative;
+float: right;
+    padding: 1px;
+    background-color:black;
+    background-size:cover;
+
+}
+li {
+    display: inline-block;
+    margin-top: 10px;
+
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+li.active a {
+    border: 1px solid rgb(74, 3, 241);
+}
+li a:hover {
+    border: 1px solid white;
+}
