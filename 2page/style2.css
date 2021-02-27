@@ -1,0 +1,112 @@
+body {
+    background: black;
+    color: white;
+
+}
+
+#dp1 {
+    width: 350px;
+    height: 200px;
+    position:absolute;
+    border-radius: 20px;
+    top: 185px;
+    left: 50px;
+    z-index: +1;
+    opacity: 1;
+}
+.container {
+    position:relative;
+    text-align: center;
+}
+.con2 {
+    position: relative;
+    text-align: center;
+}
+.tp1 {
+     margin: -480px 180px;
+    top: 500px;
+    color:rgb(252, 247, 247);
+     font-size: 25px;
+}
+.tp2 {
+    margin: 405px  1050px ;
+    padding: auto;
+    color: white;
+    font-size: 30px;
+}
+
+.tp3 {
+    position: absolute;
+    bottom: 100px;
+    left: 200px;
+color:white;
+font-size: 25px;    
+}
+.tp4 {
+    position:absolute;
+    bottom: 100px;
+    right: 200px;
+    font-size: 25px;
+
+}
+#dp2 {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    border-radius: 20px;
+    opacity: 0.8;
+    top: 500px;
+    left: 50px;
+    z-index: +1;
+
+}
+
+#dp3 {
+    width: 350px;
+    opacity: 0.9;
+    height: 200px;
+    position: absolute;
+    top: 150px;
+    right: 50px;
+    z-index: +1;
+    border-radius: 20px;
+}
+
+#dp4 {
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    border-radius: 20px;
+    top: 500px;
+    right: 50px;
+    z-index: +1;
+    opacity: 0.99;
+}
+#notch {
+    background-position: center;
+    background-size: cover;
+    
+}
+
+ul {
+    list-style-type: none;
+    float: right;
+    padding: 1px;
+}
+li {
+    display: inline-block;
+    margin-top: 10px;
+   
+}
+li a {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 5px 20px;
+}
+li.active a {
+    border: 1px solid rgb(74, 3, 241);
+}
+li a:hover {
+    border: 1px solid white;
+}
